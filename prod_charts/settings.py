@@ -12,6 +12,7 @@ from datetime import datetime
 #Visualization libraries
 import seaborn as sns
 from matplotlib import pyplot as plt
+import geopandas as gpd
 
 #Libraries for statistics
 import scipy.stats as stats
