@@ -1,6 +1,8 @@
 
 #Basic libraries
+import os
 import math
+import tqdm
 import warnings
 warnings.filterwarnings("ignore")
 
@@ -11,7 +13,8 @@ from datetime import datetime
 
 #Visualization libraries
 import seaborn as sns
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 import geopandas as gpd
 
 #Libraries for statistics
